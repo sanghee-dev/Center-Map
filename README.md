@@ -2,10 +2,13 @@
 지도에서 N개의 위치가 주어졌을 때 중간 위치를 지도해 표시해주는 서비스입니다.
 
 ## 스킬
-
 - Swift
 - MVC Pattern
 - MapKit
+
+
+## 기술 블로그
+https://velog.io/@leeesangheee/Center-Map-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8
 
 ## 기존 깃허브 링크
 https://github.com/della-padula/YappUltraHardPractice/tree/personal/Sanghee-2/Sanghee/Practice2/Practice2
