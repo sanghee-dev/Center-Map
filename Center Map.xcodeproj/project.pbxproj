@@ -12,7 +12,6 @@
 		5E94CC1B27076336005FDCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E94CC1927076336005FDCE4 /* LaunchScreen.storyboard */; };
 		5E94CC26270763EC005FDCE4 /* CLLocationCoordinate2D+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94CC23270763EC005FDCE4 /* CLLocationCoordinate2D+Equatable.swift */; };
 		5E94CC27270763EC005FDCE4 /* UIView+anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94CC24270763EC005FDCE4 /* UIView+anchor.swift */; };
-		5E94CC28270763EC005FDCE4 /* MKMapView+Zoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94CC25270763EC005FDCE4 /* MKMapView+Zoom.swift */; };
 		5E94CC33270763F2005FDCE4 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94CC2A270763F2005FDCE4 /* CustomAnnotationView.swift */; };
 		5E94CC34270763F2005FDCE4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94CC2C270763F2005FDCE4 /* MapViewController.swift */; };
 		5E94CC35270763F2005FDCE4 /* PrintFn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E94CC2E270763F2005FDCE4 /* PrintFn.swift */; };
@@ -28,7 +27,6 @@
 		5E94CC1C27076336005FDCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E94CC23270763EC005FDCE4 /* CLLocationCoordinate2D+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Equatable.swift"; sourceTree = "<group>"; };
 		5E94CC24270763EC005FDCE4 /* UIView+anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+anchor.swift"; sourceTree = "<group>"; };
-		5E94CC25270763EC005FDCE4 /* MKMapView+Zoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKMapView+Zoom.swift"; sourceTree = "<group>"; };
 		5E94CC2A270763F2005FDCE4 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
 		5E94CC2C270763F2005FDCE4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5E94CC2E270763F2005FDCE4 /* PrintFn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintFn.swift; sourceTree = "<group>"; };
@@ -66,12 +64,11 @@
 		5E94CC0D27076335005FDCE4 /* Center Map */ = {
 			isa = PBXGroup;
 			children = (
-				5E94CC32270763F2005FDCE4 /* Model */,
 				5E94CC29270763F2005FDCE4 /* View */,
 				5E94CC2B270763F2005FDCE4 /* ViewController */,
-				5E94CC2D270763F2005FDCE4 /* Function */,
 				5E94CC2F270763F2005FDCE4 /* Utility */,
 				5E94CC22270763EC005FDCE4 /* Extension */,
+				5E94CC2D270763F2005FDCE4 /* Function */,
 				5E94CC0E27076335005FDCE4 /* AppDelegate.swift */,
 				5E94CC1727076336005FDCE4 /* Assets.xcassets */,
 				5E94CC1927076336005FDCE4 /* LaunchScreen.storyboard */,
@@ -83,9 +80,8 @@
 		5E94CC22270763EC005FDCE4 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				5E94CC23270763EC005FDCE4 /* CLLocationCoordinate2D+Equatable.swift */,
 				5E94CC24270763EC005FDCE4 /* UIView+anchor.swift */,
-				5E94CC25270763EC005FDCE4 /* MKMapView+Zoom.swift */,
+				5E94CC23270763EC005FDCE4 /* CLLocationCoordinate2D+Equatable.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -117,17 +113,10 @@
 		5E94CC2F270763F2005FDCE4 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				5E94CC30270763F2005FDCE4 /* AnnotationManager.swift */,
 				5E94CC31270763F2005FDCE4 /* LocationManager.swift */,
+				5E94CC30270763F2005FDCE4 /* AnnotationManager.swift */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		5E94CC32270763F2005FDCE4 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E94CC36270763F2005FDCE4 /* AnnotationManager.swift in Sources */,
-				5E94CC28270763EC005FDCE4 /* MKMapView+Zoom.swift in Sources */,
 				5E94CC34270763F2005FDCE4 /* MapViewController.swift in Sources */,
 				5E94CC33270763F2005FDCE4 /* CustomAnnotationView.swift in Sources */,
 				5E94CC26270763EC005FDCE4 /* CLLocationCoordinate2D+Equatable.swift in Sources */,
