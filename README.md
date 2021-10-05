@@ -8,10 +8,10 @@
 
 
 ## 기술 블로그
-[기술 블로그 링크](https://velog.io/@leeesangheee/Center-Map-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
+https://velog.io/@leeesangheee/Center-Map-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8
 
 ## 기존 깃허브
-[기존 깃허브 링크](https://github.com/della-padula/YappUltraHardPractice/tree/personal/Sanghee-2/Sanghee/Practice2/Practice2)
+https://github.com/della-padula/YappUltraHardPractice/tree/main/Sanghee/Practice2/Practice2
 
 
 ## 특징
